@@ -104,8 +104,7 @@ Y = deque(maxlen=20)
 Y.append(1)
 
 app = dash.Dash(__name__)
-app.scripts.config.serve_locally = True
-app.css.config.serve_locally = True
+server=app.server
 app.layout = html.Div([
     html.Div([
         html.Div([
