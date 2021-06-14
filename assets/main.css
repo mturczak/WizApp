@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+     background-color: #efefef;
+}
+.all {
+    font-family: Roboto, serif;
+    background-color: #efefef;
+    width: 100%;
+    height: 100%;
+
+}
+.header {
+    text-align: center;
+}
+.first_row {
+    display: inline-block;
+    width: 50%;
+    color: #ff0000;
+    text-align: center;
+}
+/*.row {*/
+/*    display: inline-block;*/
+/*    width:100%*/
+/*}*/
+h1 {
+    color: blue;
+}
+P {
+    text-align: center;
+}
